@@ -6,22 +6,24 @@
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
-double ToCube (int num)
-{
-    for (int i = 1, i < num+1; i++;)
+void ToCube (int num)
+{   double cube = 0;
+    for (int i = 1; i < num; i++)
     {
-        double cube = Math.Pow(i, 3);
+        cube = Math.Pow(i, 3);
         Console.Write(cube + ", ");
     }
+    Console.Write(Math.Pow(num,3));
 }
 
 int GetNumber(string text)
 {
-    Console.WriteLine("Insert some number");
-    string text = Console.ReadLine();
-    int num = Int32.Parse(text);
+    Console.WriteLine(text);
+    // string text = Console.ReadLine();
+    int num = Int32.Parse(Console.ReadLine());
+    // Console.WriteLine(num);
     return num;
 }
 
-GetNumber (text);
-ToCube (num);
+int number = GetNumber ("Ведите число: ");
+ToCube (number);
