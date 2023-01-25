@@ -27,8 +27,6 @@ int bx = GetKoordinate("для x точки B");
 int by = GetKoordinate("для y точки B");
 int bz = GetKoordinate("для z точки B");
 
-double sum_square = Math.Pow((bx - ax), 2) + Math.Pow((by - ay), 2) + Math.Pow((bz - az), 2);
-Console.WriteLine($"out sum_square is {sum_square}");
 double s = distance(ax, ay, az, bx, by, bz);
 Console.WriteLine($"Расстояние между точками в 3d пространстве {s}"); 
 
