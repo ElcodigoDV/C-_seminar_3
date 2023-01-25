@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\YandexDisk\\Мои документы\\C#\\sem_3_DZ\\ex_19\\ex_19.csproj": {}
+    "/home/d/downloads/C#/examples/C#_seminar_3/ex_19/ex_19.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\YandexDisk\\Мои документы\\C#\\sem_3_DZ\\ex_19\\ex_19.csproj": {
+    "/home/d/downloads/C#/examples/C#_seminar_3/ex_19/ex_19.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\YandexDisk\\Мои документы\\C#\\sem_3_DZ\\ex_19\\ex_19.csproj",
+        "projectUniqueName": "/home/d/downloads/C#/examples/C#_seminar_3/ex_19/ex_19.csproj",
         "projectName": "ex_19",
-        "projectPath": "C:\\Users\\User\\YandexDisk\\Мои документы\\C#\\sem_3_DZ\\ex_19\\ex_19.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\YandexDisk\\Мои документы\\C#\\sem_3_DZ\\ex_19\\obj\\",
+        "projectPath": "/home/d/downloads/C#/examples/C#_seminar_3/ex_19/ex_19.csproj",
+        "packagesPath": "/home/d/.nuget/packages/",
+        "outputPath": "/home/d/downloads/C#/examples/C#_seminar_3/ex_19/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/d/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -48,12 +48,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.8, 6.0.8]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }

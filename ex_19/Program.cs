@@ -26,9 +26,8 @@ int GetNum(string text)
     string str = Console.ReadLine();
     // char[] arr = str.ToCharArray();
     // return arr;
-    return str
-    // Console.WriteLine($"This is 2nd el of array {arr[1]}?");
+    return str;
 }
 
-int arr = GetNum("Введите 5-тизначное число");
+string arr = GetNum("Введите 5-тизначное число");
 CheckPal(arr);

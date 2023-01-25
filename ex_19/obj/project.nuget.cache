@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "k5DJDQvUifcT3xYSJ+YQ5VskZbVAV5j0RtwnmCWjiH/WxTHHHY9RPd1azj4qgkSqztcYphk72bIiQXYeUW2mdw==",
+  "dgSpecHash": "mCp2bvnH7SOtQKLL6RBAE1xGKfRqXixszerE8iglctjq2GHxfISHMspvikWV9RjB01USa53PpypTaLupaM/3fA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\YandexDisk\\Мои документы\\C#\\sem_3_DZ\\ex_19\\ex_19.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/d/downloads/C#/examples/C#_seminar_3/ex_19/ex_19.csproj",
+  "expectedPackageFiles": [
+    "/home/d/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+  ],
   "logs": []
 }
